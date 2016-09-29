@@ -6,8 +6,35 @@
 
 img {
     width: 300px;
+    border: 1px solid lightgrey;
 }
 
 .authors img {
     width: 20px;
+}
+
+.octocat {
+    float: left;
+    margin: 5px;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: lightgrey;
+}
+
+.image-footer {
+    color: lightgrey;
+}
+
+.authors {
+    float: right;
+}
+
+.image-caption {
+    float: right;
 }
