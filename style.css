@@ -5,17 +5,18 @@
 }
 
 img {
-    width: 300px;
+    width: 325px;
     border: 1px solid lightgrey;
 }
 
 .authors img {
     width: 20px;
+    margin-left: 3px;
 }
 
 .octocat {
     float: left;
-    margin: 5px;
+    margin: 10px;
 }
 
 li {
@@ -24,17 +25,25 @@ li {
 
 a {
     text-decoration: none;
-    color: lightgrey;
+    color: black;
+    font-weight: bold;
 }
 
 .image-footer {
-    color: lightgrey;
+    color: grey;
+    border-bottom: 1px solid lightgrey;
+    padding: 5px;
 }
 
 .authors {
     float: right;
+    padding: 0px;
 }
 
 .image-caption {
     float: right;
+}
+
+span.image-number:before {
+    content: "#";
 }
